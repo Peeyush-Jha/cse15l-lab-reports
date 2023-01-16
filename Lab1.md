@@ -1,4 +1,5 @@
-# Installing VScode - 
+# Installing VScode 
+---
 First, we need to install an application where we would write our commands. The software we will be using for this purpose is VScode.
 In order to download and install it, open a browser (like Chrome, Firefox etc.) and type the url *https://code.visualstudio.com/download*.
 Now, figure out which OS you are using (Windows, Mac etc) and install VScode for that OS. We are good to go.
@@ -8,15 +9,24 @@ Now, figure out which OS you are using (Windows, Mac etc) and install VScode for
 
 
 
-# Remotely Connecting - 
-Second, install git. Since I use a Mac so I didn't need to install git externally on my laptop. 
+# Remotely Connecting  
+---
+Second, install git. Since I use a Mac so I didn't need to install git externally on my laptop. Although, you can install git for windows by this [Link](https://gitforwindows.org/).
 Then open the terminal on VScode. Your screen should look like the attached screenshot.
+
 
 ![Image](Terminal.png)
 
 
 Then type the command *"ssh cs15lwi23zz@ieng6.ucsd.edu"*, replace *"zz"* by your course specific account's letters.
-You will encounter a message if you are trying to log in for the first time to which you need to type in "yes" and press enter. Then enter your password. 
+You will encounter a message if you are trying to log in for the first time to which you need to type in "yes" and press enter.
+This should be the terminal message -
+
+![Image](Yes.png)
+
+
+Then enter your password. 
+
 
 ![Image](First.png)
 
@@ -28,8 +38,22 @@ Now you will see the below displayed message which shows that your computer has 
 
 
 
-# Trying Some Commands - 
-Now try to play around with some commands like cd, pwd, ls,cat and cp.
-In order to log out or disconnect from the remote server, run the command *"exit"* or press Ctrl+D.
+# Trying Some Commands 
+---
+Now try to play around with some commands. Try the following -
+
+
+* cd
+* ls -lat
+* ls -a
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ 
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+'''
+
+
 
 ![Image](Commands.png)
+
+Hurray, we just learnt how to work with terminal.
+>In order to log out or disconnect from the remote server, run the command *"exit"* or press Ctrl+D.
+
