@@ -69,7 +69,9 @@ Now try to play around with some commands. Try the following -
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ - This command is used to copy the contents of a file
 
 
-Here are some more use of these commands -
+Here are some more use of these commands. As you can see I have typed some wrong commands so I got error messages -
+
+
 ![Image](Commands.png)
 
 Hurray, we just learnt how to work with terminal. Now try to do it on your own without reading these instructions and make a github page of your own ! Ciao.
