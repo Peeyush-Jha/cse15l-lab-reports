@@ -1,3 +1,12 @@
+# Getting Started
+Hello future CSE 15L Students. In this Lab we are going to learn how to do the following 3 things - 
+* Installing VScode
+* Remotely Connecting to a server in CSE Building
+* Trying out some commands on terminal
+
+
+Aren't you all excited !! So take out your laptops and let us begin- 
+
 # Installing VScode 
 ---
 First, we need to install an application where we would write our commands. The software we will be using for this purpose is VScode.
@@ -7,6 +16,10 @@ Now, figure out which OS you are using (Windows, Mac etc) and install VScode for
 
 ![Image](VScode.png)
 
+
+After installing VSCode, now open the application. The following window will appear on your screen.
+
+![Image](StartPage.png)
 
 
 # Remotely Connecting  
@@ -42,18 +55,23 @@ Now you will see the below displayed message which shows that your computer has 
 ---
 Now try to play around with some commands. Try the following -
 
+* pwd - It stands for present working directory. This command tells us the address of the directory we are currently working in.
+![Image](pwd.png)
 
-* cd
-* ls -lat
-* ls -a
-* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ 
-* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-'''
+* ls - ls stands for list. It is used to list out all the directories within your present working directory. 
+* Extra Info: ls -a will list all the files and directories including all the hidden files
+![Image](ls.png)
+
+* cd - cd stands for change directory. It is used to change your present working directory.
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt - cat stands for concatenate. This command reads and print the data from the file.
+![Image](cat.png)
+
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ - This command is used to copy the contents of a file
 
 
-
+Here are some more use of these commands -
 ![Image](Commands.png)
 
-Hurray, we just learnt how to work with terminal.
+Hurray, we just learnt how to work with terminal. Now try to do it on your own without reading these instructions and make a github page of your own ! Ciao.
 >In order to log out or disconnect from the remote server, run the command *"exit"* or press Ctrl+D.
 
