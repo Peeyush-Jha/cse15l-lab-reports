@@ -1,1 +1,2 @@
 CSE 15L is the best!!!
+[Lab 1](https://peeyush-jha.github.io/cse15l-lab-reports/Lab1.html)
