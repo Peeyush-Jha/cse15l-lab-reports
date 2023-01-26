@@ -66,7 +66,7 @@ Now try to play around with some commands. Try the following -
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt - cat stands for concatenate. This command reads and print the data from the file.
 ![Image](cat.png)
 
-* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ - This command is used to copy the contents of a file
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ - cp stands for classpath. Java uses this command-line argument to know where to look for classes.
 
 
 Here are some more use of these commands. As you can see I have typed some wrong commands so I got error messages -
