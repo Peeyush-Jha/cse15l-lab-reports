@@ -28,11 +28,11 @@ In this second webpage screenshot we can see that the url of the webpage is *loc
 
 ![Image](Final_text.png)
 
-This is the server with the URL *localhost:4000/*. Here, as the path is just "/" so the if statement lock gets executed and it just returns the vlaue of the string str.
+This is the server with the URL *localhost:4000/*. Here, as the path is just "/" so the if statement block gets executed and it just returns the value of the string str.
 
 # Part 2 : BUGS
 
-The bug I choose from lab 3 is in the method called "reversed" in the java file ArrayExamples.java  
+The bug I chose from lab 3 is in the method called "reversed" in the java file ArrayExamples.java  
 A failure-inducing input for the buggy program, as a JUnit test - 
 
 
