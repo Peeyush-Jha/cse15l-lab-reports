@@ -1,9 +1,5 @@
 # Lab Report 2 : Servers and Bugs
 ---
-Hello everyone!!
-Today we are going to learn about a local web server and also learn debugging of computer programs. So let's begin 
-
-
 # Part 1 : String Server
 
 **Screenshot of code :**
