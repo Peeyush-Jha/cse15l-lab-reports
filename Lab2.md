@@ -7,7 +7,7 @@
 ![Image](Code.png) 
 
 
-Description of my code - In this code I have created a java file called StringServer whose purpose is to add messages (strings) to a variable calles str. We can use the path */add-messages* to add new lines of strings to our variable str.
+Description of my code - In this code I have created a java file called StringServer whose purpose is to add messages (strings) to a variable calles str. We can use the path */add-messages* to add new lines of strings to our variable str. The exact working of this code has been described below.
 
 **1st Screenshot of using /add-message :**
 
@@ -30,20 +30,23 @@ In this second webpage screenshot we can see that the url of the webpage is *loc
 The bug I chose from lab 3 is in the method called "reversed" in the java file ArrayExamples.java  
 A failure-inducing input for the buggy program, as a JUnit test - 
 
-
-`@Test
+```
+@Test
 public void testReversed1() {
     int [] input1 = {4, 5, 6, 7 };  
     assertArrayEquals (new int [] {7, 6, 5, 4 }, ArrayExamples. reversed (input1)) ;  
-} `. 
+} 
+```
 
 An input that doesn’t induce a failure, as a JUnit test -  
 
-`@Test
+```
+@Test
 public void testReversed2() {
     int [] input2 = {0, 0 };  
     assertArrayEquals (new int [] {0, 0 }, ArrayExamples. reversed (input2)) ;  
-} `. 
+} 
+```
 
 **The Symptoms**
 
@@ -54,26 +57,28 @@ In the above Junit tests we can see clearly that the first test failed but the s
 **SOLUTION**
 
 **Before** 
-
-`static int[] reversed(int[] arr) {
+```
+static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
- }`
+ }
+ ```
 
 In order to fix this bug we need to write the following code -  
 
 **After**
-
-`static int[] reversed(int[] arr) {
+```
+static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       newArray[arr.length - i - 1] = arr[i] ;
     }
     return newArray;
- }`
+ }
+ ```
  
 This fix addresses the issue because in the initial code we were changing/reeplacing the elements in the array "arr" with the elements from the "newArray" but newArray is already empty (that is, all values in it are set to 0 by default). So the old code was just repalacing all the elements in arr with 0.  
 But in the updated code we are replacing the values in newArray with the values from arr index-by-index and in the reverse order. Once all the elements are reversed, we return the newArray as this is the reversed version of our main array "arr".
