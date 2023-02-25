@@ -68,16 +68,21 @@ These commands re-compiled and re-ran the updtaed file `ListExampleTests`. The o
   
 For the last part, we need to use 3 git commands - `git add <FileName>` , `git commit -m <message>` and `git push origin main`. Since my terminal history already had these commands saves so I used `Ctrl-R` to search for them.    
 
-*Keys Pressed : `<Ctrl-R> add <enter>` , `<Ctrl-R> commit <enter>` , `<Ctrl-R> push <enter>` *
+*Keys Pressed : `<Ctrl-R> add <enter>` , `<Ctrl-R> commit <enter>` , `<Ctrl-R> push <enter>`*
  
-`git add` - This command added (overwrote) the `ListExamples.java` file in the directory.  
+*`git add` - This command added (overwrote) the `ListExamples.java` file in the directory.  
 
-`git commit` - This command recorded the changes on my local "cloned" repository.  
+*`git commit` - This command recorded the changes on my local "cloned" repository.  
 
-`git push` - This command sent the committed changes to the remote repository and updated it.
+*`git push` - This command sent the committed changes to the remote repository and updated it.
   
 ![Image](add.png)
 
 ![Image](commit.png)
 
 ![Image](push.png)
+
+---
+
+That is the end for Lab Report 4. Thanks for reading it.
+
