@@ -38,7 +38,7 @@ In order to access the content of the file from terminal I used `nano ListExampl
 
 *Keys Pressed : `nano L<Tab> .j<tab> <enter>` , `<Ctrl-O> <enter> <Ctrl-X>`*
 
-![Image](edit.png)
+![Image](edited.png)
 
 ---
 
