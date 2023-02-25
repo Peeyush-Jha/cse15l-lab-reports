@@ -38,10 +38,10 @@ In order to access the content of the file from terminal I used `nano ListExampl
 
 *Keys Pressed : `nano L<Tab> .j<tab> <enter>` , `<Ctrl-O> <enter> <Ctrl-X>`*
 
-I made this change in code because index2 needs to be incremented by 1 instead of index1 in the last while loop to get the desired result.
-
 ![Image](edit.png)
+
 ---
+
 **Step 8 : Run the tests, demonstrating that they now succeed**
 
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 3 up in the search history, so I used up arrow to access it. Then the
