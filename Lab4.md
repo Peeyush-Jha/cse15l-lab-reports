@@ -9,7 +9,7 @@ I used `Ctrl-R` to reverse-i-search for `ssh cs15lwi23xxx@ieng6.ucsd.edu` comman
 
 This command helped me access the remote server of ieng6 on my local computer. Now I have access to the specific  cs15lwi23xxx@ieng6.ucsd.edu account from my personal device.
 
-![Image](ieng6.png) 
+![Image](ieng.png) 
 
 ---
 
