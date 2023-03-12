@@ -1,7 +1,7 @@
 # LAB REPORT 5
 
 ## Re-do for Lab Report 3
-I have chosen `find` command for this lab report. (Earlier I had done `grep` in Lab Report 3) Therefore, in the following report I will give 3 interesting command-line options to use `find`. I will be writing the commands inside the `/written_2` directory. This means `/Users/Documents/GitHub/docsearch/written_2` will be my present working directory.
+I have chosen `find` command for this lab report. (Earlier I had done `grep` in Lab Report 3) Therefore, in the following report I will give 2 interesting command-line options to use `find`. I will be writing the commands inside the `/written_2` directory. This means `/Users/Documents/GitHub/docsearch/written_2` will be my present working directory.
    
 **1) `-delete` option -**
 If we want to delete a file or directory we can use the `-delete` command- line option.
